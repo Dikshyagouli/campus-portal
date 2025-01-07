@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table-container {
+    width: 100%;
+    text-align: center;
+    overflow-x: auto; /* Enable horizontal scrolling on small screens */
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.table-container th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #f2f2f2;
+}
+
+/* For larger screens, adjust layout */
+@media only screen and (min-width: 768px) {
+    table {
+        width: auto; /* Allow table to expand based on content */
+    }
+
+    .table-container {
+        overflow-x: auto; /* Keep horizontal scrolling if needed */
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <h1>Bachelor in Information Technology</h1>
+        <h2>First Semester</h2>
+          <table>
+              <thead>
+                  <tr>
+                      <th>SN</th>
+                      <th>Course Code</th>
+                      <th>Course Title</th>
+                    <th>Credit Hrs.</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>1</td>
+                      <td>BIT101</td>
+                      <td>Introdution to Information technology</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                      <td>2</td>
+                      <td>BIT102</td>
+                      <td>C Programming</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                      <td>3</td>
+                      <td>BIT103</td>
+                      <td>Digital Logic</td>
+                    <td>3</td>
+                  </tr>
+                 <tr>
+                      <td>4</td>
+                      <td>MTH104</td>
+                      <td>Basic Mathematics</td>
+                   <td>3</td>
+                  </tr>
+                 <tr>
+                      <td>5</td>
+                      <td>SOC105</td>
+                      <td>Sociology</td>
+                   <td>3</td>
+                  </tr>
+              </tbody>
+          </table>
+</body>
+</html>
